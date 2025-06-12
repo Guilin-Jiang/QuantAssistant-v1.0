@@ -1,0 +1,7 @@
+services:
+  quant_ai_assistant:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
